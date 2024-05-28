@@ -103,7 +103,7 @@ const ProductList = ({ products, isLoading }) => {
             <table>
               <thead>
                 <tr>
-                  <th>s/n</th>
+                  <th>S. No.</th>
                   <th>Name</th>
                   <th>Category</th>
                   <th>Price</th>
@@ -118,7 +118,7 @@ const ProductList = ({ products, isLoading }) => {
                   const { _id, name, category, price, quantity } = product;
                   return (
                     <tr key={_id}>
-                      <td>{index + 1}</td>
+                      <td>{itemOffset + index + 1}</td>
                       <td>{shortenText(name, 16)}</td>
                       <td>{category}</td>
                       <td>
