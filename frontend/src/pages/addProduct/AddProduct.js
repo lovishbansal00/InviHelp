@@ -10,7 +10,7 @@ import {
 
 const initialState = {
   name: "",
-  category: "",
+  category: "Electronics",
   quantity: "",
   price: "",
 };
